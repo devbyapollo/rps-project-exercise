@@ -13,7 +13,7 @@ function getComputerChoice(str1 = "rock", str2 = "paper", str3 = "scissors") {
 }
 
 function getHumanChoice() {
-  let humanPk = prompt("Your turn: ");
+  let humanPk = prompt("Write rock, paper or scissors to play: ");
   let userChoice = humanPk.toLowerCase();
   return userChoice;
 }
